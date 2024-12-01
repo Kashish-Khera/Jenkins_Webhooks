@@ -6,6 +6,9 @@ node
 def currentDate = new Date()
                     def formattedDate = currentDate.format("yyyy-MM-dd HH:mm:ss")
                     echo "Current Date and Time: ${formattedDate}"
+
+
+echo "updated ${formattedDate}"
         
     }
    
