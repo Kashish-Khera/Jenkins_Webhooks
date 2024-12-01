@@ -1,0 +1,12 @@
+node
+{
+    stage("BUILD"){
+        echo "Build done successfully"
+    echo "Webhooks file"
+def currentDate = new Date()
+                    def formattedDate = currentDate.format("yyyy-MM-dd HH:mm:ss")
+                    echo "Current Date and Time: ${formattedDate}"
+        
+    }
+   
+}
