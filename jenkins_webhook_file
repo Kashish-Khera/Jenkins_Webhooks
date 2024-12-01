@@ -9,7 +9,7 @@ def currentDate = new Date()
 
 
 echo "updated ${formattedDate}"
-        
+        echo "again updated"
     }
    
 }
